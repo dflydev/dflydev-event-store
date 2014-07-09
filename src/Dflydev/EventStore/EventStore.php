@@ -9,4 +9,5 @@ interface EventStore
     public function appendWith(EventStreamId $eventStreamId, DomainEvents $domainEvents);
     public function eventStreamSince(EventStreamId $eventStreamId);
     public function fullEventStreamFor(EventStreamId $eventStreamId);
+    public function eventsSince($lastReceivedEventId);
 }
