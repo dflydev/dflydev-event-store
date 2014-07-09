@@ -7,9 +7,6 @@
         "event-centric/domain-events": "~0.0@dev",
         "event-centric/when": "~0.0@dev"
     },
-    "require-dev": {
-        "phpunit/phpunit": "~3.7"
-    },
     "autoload": {
         "psr-4": {
             "Dflydev\\EventStore\\": "src/Dflydev/EventStore"
