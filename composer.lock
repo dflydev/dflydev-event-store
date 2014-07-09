@@ -8,13 +8,30 @@
     "packages": [
         {
             "name": "event-centric/domain-events",
-            "version": "0.0.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "/Users/simensen/workspaces/event-centric/domain-events",
-                "reference": "master"
+                "url": "https://github.com/event-centric/domain-events.git",
+                "reference": "03fbc29f96dd85741b571c02ea0775a079a7b810"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/event-centric/domain-events/zipball/03fbc29f96dd85741b571c02ea0775a079a7b810",
+                "reference": "03fbc29f96dd85741b571c02ea0775a079a7b810",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.1"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.0.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "EventCentric\\DomainEvents\\": [
@@ -22,7 +39,37 @@
                     ]
                 }
             },
-            "time": "2014-06-25 14:39:57"
+            "autoload-dev": {
+                "psr-4": {
+                    "EventCentric\\": [
+                        "tests/EventCentric"
+                    ]
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mathias Verraes",
+                    "email": "mathias@verraes.net",
+                    "homepage": "http://verraes.net"
+                }
+            ],
+            "description": "Domain Events",
+            "homepage": "https://github.com/event-centric/domain-events",
+            "keywords": [
+                "cqrs",
+                "ddd",
+                "domain-driven design",
+                "event sourcing",
+                "reactive"
+            ],
+            "support": {
+                "source": "https://github.com/event-centric/domain-events/tree/master",
+                "issues": "https://github.com/event-centric/domain-events/issues"
+            },
+            "time": "2014-07-01 19:15:59"
         },
         {
             "name": "event-centric/when",
