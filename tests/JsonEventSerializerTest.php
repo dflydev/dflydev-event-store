@@ -4,7 +4,7 @@ namespace JsonEventSerializerTest;
 
 require_once __DIR__.'/bootstrap.php';
 
-use Dflydev\EventStore\Implementations\JsonEventSerializer;
+use Dflydev\EventStore\JsonEventSerializer;
 use EventCentric\DomainEvents\DomainEvent;
 use JsonSerializable;
 

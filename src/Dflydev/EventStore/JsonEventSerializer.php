@@ -1,6 +1,6 @@
 <?php
 
-namespace Dflydev\EventStore\Implementations;
+namespace Dflydev\EventStore;
 
 use Dflydev\EventStore\EventSerializer;
 use EventCentric\DomainEvents\DomainEvent;
